@@ -1,1 +1,1 @@
-# ny-times
+# ny_times

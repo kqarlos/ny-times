@@ -1,0 +1,14 @@
+.row {
+    margin-bottom:8px;
+}
+
+#header {
+    font-size: 32px;
+}
+
+textarea {
+    resize: none;
+}
+/* .jumbotron {
+    width: 100%;
+} */
