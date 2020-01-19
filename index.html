@@ -30,7 +30,7 @@
         </div>
     </div>
 
-    <div class="container border">
+    <div class="container border" id="searchFilter">
         <div class="row bg-light py-3">
             <div class="col-12 h3"><i class="fas fa-filter"></i> Search Parameter</div>
         </div>
@@ -38,14 +38,14 @@
             <div class="col-12">Search Term:</div>
         </div>
         <div class="row">
-            <div class="col-12"><textarea class="form-control" rows="1"></textarea></div>
+            <div class="col-12"><textarea class="form-control" name="term" rows="1"></textarea></div>
         </div>
         <div class="row">
             <div class="col-12">Number of Records to Retrieve:</div>
         </div>
         <div class="row">
             <div class="col-12">
-                <select class="form-control" rows="1" name="number">
+                <select class="form-control" rows="1" name="numberOfRecords">
                     <option value="0">Select number</option>
                     <option value="5">5</option>
                     <option value="4">4</option>
@@ -58,20 +58,20 @@
             <div class="col-12">Start Year (Optional):</div>
         </div>
         <div class="row">
-            <div class="col-12"><textarea class="form-control" rows="1"></textarea></div>
+            <div class="col-12"><textarea class="form-control" name="startYear" rows="1"></textarea></div>
         </div>
         <div class="row">
             <div class="col-12">End Year (Optional):</div>
         </div>
         <div class="row">
-            <div class="col-12"><textarea class="form-control" rows="1"></textarea></div>
+            <div class="col-12"><textarea class="form-control" name="endYear" rows="1"></textarea></div>
         </div>
         <div class="row">
             <div class="col-2">
-                <button class="btn btn-primary"><i class="fas fa-search"></i> Search</button>
+                <button class="btn btn-primary" id="search"><i class="fas fa-search"></i> Search</button>
             </div>
             <div class="col-2">
-                <button class="btn btn-primary"><i class="fas fa-trash"></i> Clear Results</button>
+                <button class="btn btn-primary" id="clear"><i class="fas fa-trash"></i> Clear Results</button>
             </div>
             <div class="col-8"></div>
 
@@ -86,6 +86,17 @@
         </div>
         <div class="row py-2">
             <div class="col-12">
+                <div class="card">
+                    <h5 class="card-header h3">1. Top Bernie Sanders Aide Rankles Those In and Out of Campaign</h5>
+                    <div class="card-body">
+                        <h5 class="card-title h4">A data breach by the campaign of Senator Bernie Sanders underscores
+                            festering tensions with Hillary Clinton’s campaign.</h5>
+                        <p class="card-text"><i class="far fa-calendar-alt"></i> Date published: 2015-12-29T17:07:22+0000</p>
+                        <a href="https://www.nytimes.com/politics/first-draft/2015/12/29/top-bernie-sanders-aide-rankles-those-in-and-out-of-campaign/"
+                            class=" mt-2 btn btn-primary"><i class="fas fa-external-link-square-alt"></i> Go to news article</a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
