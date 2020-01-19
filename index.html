@@ -24,15 +24,15 @@
 
     <div class="container" style="background-color:darkblue">
         <div class="jumbotron jumbotron-fluid px-5" style="background-color:darkblue">
-            <div class="container text-center text-white">
-                <div class="fa fa-newspaper-o font-weight-bolder" id="header"> New York Times Search</div>
+            <div class="container text-center text-white display-4">
+                📰 New York Times Search
             </div>
         </div>
     </div>
 
     <div class="container border">
         <div class="row bg-light py-3">
-            <div class="col-12 fa fa-calendar-o">Search Parameter</div>
+            <div class="col-12 h3"><i class="fas fa-filter"></i> Search Parameter</div>
         </div>
         <div class="row">
             <div class="col-12">Search Term:</div>
@@ -46,6 +46,7 @@
         <div class="row">
             <div class="col-12">
                 <select class="form-control" rows="1" name="number">
+                    <option value="0">Select number</option>
                     <option value="5">5</option>
                     <option value="4">4</option>
                     <option value="3">3</option>
@@ -67,10 +68,10 @@
         </div>
         <div class="row">
             <div class="col-2">
-                <button class="btn fa fa-search"> Search</button>
+                <button class="btn btn-primary"><i class="fas fa-search"></i> Search</button>
             </div>
             <div class="col-2">
-                <button class="btn fa fa-trash"> Clear Results</button>
+                <button class="btn btn-primary"><i class="fas fa-trash"></i> Clear Results</button>
             </div>
             <div class="col-8"></div>
 
@@ -79,8 +80,8 @@
 
     <div class="container border mt-4">
         <div class="row bg-light py-3">
-            <div class="col-12 fa fa-calendar">
-                Top Articles
+            <div class="col-12 h3">
+                <i class="fas fa-newspaper"></i> Top Articles
             </div>
         </div>
         <div class="row py-2">
