@@ -3,12 +3,10 @@
 //Calls to render the articles
 $("#search").on("click", function () {
     let numberOfRecords = $("#searchFilter [name=numberOfRecords]").val().trim();
-
     var queryURL = getQuery();
     getArticles(queryURL).then(function (articles) {
         renderArticles(articles, numberOfRecords);
     });
-
 });
 
 $("#clear").on("click", function () {
@@ -32,7 +30,6 @@ function getQuery() {
     }
 
     return queryURL + $.param(queryParams);
-
 }
 
 //returns array of articles from query
@@ -55,8 +52,8 @@ function renderArticles(articles, numberOfRecords) {
     $("#articles").empty();
     for (var i = 0; i < numberOfRecords; i++) {
 
-        var row = $("<div class='row'>");
-        var col = $("<div class='col-12'>");
+        // var row = $("<div class='row'>");
+        var col = $("<div class='col-12 my-1'>");
         
         var card = $("<div class='card'>");
         var cardHeader = $("<div class='card-header h3'>");
@@ -81,8 +78,8 @@ function renderArticles(articles, numberOfRecords) {
         card.append(cardHeader);
         card.append(cardBody);
         col.append(card);
-        row.append(col);
-        $("#articles").append(row);
+        // row.append(col);
+        $("#articles").append(col);
     }
 
 }
