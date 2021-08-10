@@ -1,12 +1,42 @@
 # NY Times
 
+</br>
+<p align="center">
+    <img src="https://img.shields.io/github/languages/count/kqarlos/ny-times?style=for-the-badge" alt="Languages" />
+    <img src="https://img.shields.io/github/languages/top/kqarlos/ny-times?style=for-the-badge" alt="Top Language" />
+    <img src="https://img.shields.io/github/languages/code-size/kqarlos/ny-times?style=for-the-badge" alt="Code Size" />
+    <img src="https://img.shields.io/github/repo-size/kqarlos/ny-times?style=for-the-badge" alt="Repo Size" />   
+    <img src="https://img.shields.io/tokei/lines/github/kqarlos/ny-times?style=for-the-badge" alt="Total Lines" />   
+    <img src="https://img.shields.io/github/last-commit/kqarlos/ny-times?style=for-the-badge" alt="Last Commit" />  
+    <img src="https://img.shields.io/github/issues/kqarlos/ny-times?style=for-the-badge" alt="Issues" />  
+    <img src="https://img.shields.io/github/followers/kqarlos?style=social" alt="Followers" />  
+</p>
+
+## Description 
+
 Easily search for NY Times articles.
 
-## Getting Started
+## Table of Contents
+
+* [Installation](#installation)
+* [Usage](#usage)
+    * [Screenshots](#screenshots)
+    * [Snippets](#snippets)
+* [Credits](#credits)
+* [License](#license)
+
+
+## Installation
 
 This application is compatible with the most commonly used web browsers.
 
-## Site Pictures
+<p align="center">
+    <a href="https://kqarlos.github.io/ny-times/"><img src="https://img.shields.io/badge/-👉 See Live Site-success?style=for-the-badge"  alt="Live Site" /></a>
+</p>
+
+## Usage
+
+### Screeshots
 
 1. Working Site
 
@@ -17,7 +47,7 @@ This application is compatible with the most commonly used web browsers.
 ![Site](assets/images/articles.png)
 
 
-## Code Snippets
+### Snippets
 
 
 1. Search
@@ -65,30 +95,27 @@ function getQuery() {
 * This function takes care of building the query. It gets the values from the fields that were filled form the user. These then add to an object of all the necesary parameters for the query. Then, the _queryParams_ object is added to the _queryURL_ with the _$.param()_ function.
 
 
-## Built With
+## Credits 
 
-* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [Bootstrap](https://getbootstrap.com/)
-* [Javascript](https://www.javascript.com/)
+### Author
 
-## Deployed Link
-
-* [See Live Site](https://kqarlos.github.io/ny-times)
-
-## Author
-
- * **Carlos Toledo** 
-
-## Links
-
-- [Link to site repository](https://github.com/kqarlos/ny-times)
-- [Link to Github](https://www.github.com/kqarlos)
-- [Link to LinkedIn](https://www.linkedin.com/in/carlos-toledo415/)
+- 💼 Carlos Toledo: [portfolio](https://kqarlos.github.io)
+- :octocat: Github: [kqarlos](https://www.github.com/kqarlos)
+- LinkedIn: [carlos-toledo415](https://www.linkedin.com/in/carlos-toledo415/)
 
 
-## Acknowledgments
+### Built With
+    
+<p align="center">
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.shields.io/badge/-HTML-orange?style=for-the-badge"  alt="HMTL" /></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://img.shields.io/badge/-CSS-blue?style=for-the-badge" alt="CSS" /></a>
+    <a href="https://www.javascript.com/"><img src="https://img.shields.io/badge/-Javascript-yellow?style=for-the-badge" alt="Javascript" /></a>
+    <a href="https://getbootstrap.com/"><img src="https://img.shields.io/badge/-Bootstrap-blueviolet?style=for-the-badge" alt="Bootstrap" /></a>
+</p>
+</br>
 
-* [W3 Schools](https://www.w3schools.com/)
-* [Bootstrap components](https://getbootstrap.com/docs/4.4/components/navbar/)
-* [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+## License
+
+<p align="center">
+    <img align="center" src="https://img.shields.io/github/license/kqarlos/ny-times?style=for-the-badge" alt="MIT license" />
+</p>
